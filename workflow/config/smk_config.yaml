@@ -1,0 +1,41 @@
+read_check:
+  mem_gb: 128
+  disk_mb: 8192
+  runtime_min: 120
+  threads: 10
+
+move_data:
+  mem_gb: 128
+  disk_mb: 8192
+  runtime_min: 240
+  threads: 68
+
+mkfastqt:
+  mem_gb: 512
+  disk_mb: 8192*4
+  runtime_min: 16*60*60
+  threads: 68
+
+RNAcounts:
+  mem_gb: 512
+  disk_mb: 8192*4
+  runtime_min: 24*60*60
+  threads: 68
+
+Cellbender:
+  mem_gb: 512
+  disk_mb: 8192*4
+  runtime_min: 32*60*60
+  threads: 68
+
+SBcounts:
+  mem_gb: 512
+  disk_mb: 8192
+  runtime_min: 7200
+  threads: 32
+
+Spatial:
+  mem_gb: 512
+  disk_mb: 8192
+  runtime_min: 3600
+  threads: 32
