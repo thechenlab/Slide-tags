@@ -10,8 +10,8 @@ Edit `main_env.yml` and `cellbender_env.yml` files located in `workflow/config` 
 Change the `name` and `prefix` to the path of the conda environment you want to create. 
 
 ```bash
-conda env create -f main_env.yml
-conda env create -f cellbender_env.yml
+conda env create -f workflow/config/main_env.yml
+conda env create -f workflow/config/cellbender_env.yml
 ```
 
 
