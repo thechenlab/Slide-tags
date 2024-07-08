@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# main by Qiyu Gong
+# SBcounts and Positioning codes by Matthew Shabet 
 umask 000
 current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 source "$current_dir/config/config.sh"
