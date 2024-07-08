@@ -113,17 +113,17 @@ Define how many samples to run locally every time:
 
 ###  3.3 Change the parameters of resource usage in `config/smk_config.yaml` file to fit your environment.
 ```yaml
-    mem_gb: 128
-    disk_mb: 8192
-    runtime_min: 60*60*3
-    threads: 68
+mem_gb: 128
+disk_mb: 8192
+runtime_min: 60*60*3
+threads: 68
 ```
 
 
 ## 4. **Run the pipeline**
 
 Export workflow path to the PATH:
-```bash
+```
 echo "export PATH="$PATH:/Path/to/slidetag/workflow"" >> ~/.bashrc
 source ~/.bashrc
 ```
