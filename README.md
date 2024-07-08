@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-# Slide-tags
-=======
-Slide-tags pipeline
->>>>>>> (commit hash)
 
+# Slide-tags
 
 This is a documentation for the [Slide-tags](https://www.nature.com/articles/s41586-023-06837-4) pipeline (Snakemake-based). It is designed to run on both cluster (UGE 8.5.5) and local environment, and is able to process the data from raw BCL files to spatial analysis. 
-
 
 
 ## 1. **Installation**
@@ -77,31 +72,31 @@ Each run will create a folder named by `BCL`, which contains the following subfo
 
 ### 3.1 Change the configurations in `config/config.sh` file to fit your environment.
 
-- `CLUSTER_PATH` <br>
+- **`CLUSTER_PATH`** <br>
     Path to the cluster bin (currently using UGE 8.5.5); set blank if running locally.
-- `CONDA_PATH` <br>
+- **`CONDA_PATH`** <br>
     Path to the conda bin.
-- `ENV_PATH` <br>
+- **`ENV_PATH`** <br>
     Path to the main conda environment for python, julia, and R.
-- `PKG_PATH` <br>
+- **`PKG_PATH`** <br>
     Path to the package folder for the pipeline.
-- `BASE_DATA_PATH` <br>
+- **`BASE_DATA_PATH`** <br>
     Path to the store processed data by pipeline, including outputs of `mkfastq`, `RNAcounts` etc.
-- `BCL_MAIN_PATH` <br>
+- **`BCL_MAIN_PATH`** <br>
     Path to the bcl data; use it as default main path for input BCLs in google sheet.
-- `WORKFLOW_PATH` <br>
+- **`WORKFLOW_PATH`** <br>
     Path to `workflow` folder, DO NOT contain `workflow` in the path.
-- `GOOGLE_SHEET_ID` <br>
+- **`GOOGLE_SHEET_ID`** <br>
     Google sheet id for the sample metadata. <br>
     Put your `google_key.json` file in the `workflow/config` folder. <br>
     Here is a [Google sheet demo](https://docs.google.com/spreadsheets/d/1BBsWhvu1bHnhDe-B-3CueJjhJ7JwBmdSVsT9_AWCSTQ/edit?gid=565737114#gid=565737114). 
-- `GOOGLE_CLOUD_BUCKET` <br>
+- **`GOOGLE_CLOUD_BUCKET`** <br>
     Google cloud bucket to store the fastq and bam files.
-- `PUCK_PATH` <br>
+- **`PUCK_PATH`** <br>
     Path to the puck coordiante csv files .
-- `PUCK_IN` <br>
+- **`PUCK_IN`** <br>
     Path to the slide-seq puck barcode files.
-- `REF_PATH` <br>
+- **`REF_PATH`** <br>
     Path to the reference genome data.
 
 
