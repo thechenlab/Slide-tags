@@ -1,5 +1,5 @@
 
-# Slide-tags
+# Slide-tags Pipeline
 
 This is a documentation for the [Slide-tags](https://www.nature.com/articles/s41586-023-06837-4) pipeline (Snakemake-based). It is designed to run on both cluster (UGE 8.5.5) and local environment, and is able to process the data from raw BCL files to spatial analysis. 
 
