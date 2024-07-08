@@ -130,16 +130,16 @@ source ~/.bashrc
 
 Run pipeline after filling sample information in the google sheet:
 
-```bash
+```
 slidetag_pipe.sh -bcl bcl_name -ra
 ```
 
 Get help message:
-```bash
+```
 slidetag_pipe.sh -h
 ```
 
-```bash
+```
 Usage: Slidetag Pipeline [options]
 
 Required:
@@ -166,6 +166,3 @@ Options:
   -td [value], -total_droplets_included
 FALSE or NONE at default for the above parameters.
 ```
->>>>>>> 86c575e (Add)
->>>>>>> 1c88eb4 (Initial commit)
->>>>>>> 4cf7fab (Resolved merge conflicts)
