@@ -101,8 +101,7 @@ Each run will create a folder named by `BCL`, which contains the following subfo
 
 
 
-###  3.2 Change the parameters of chunk_size in `config/config.sh` file to fit your environment.
-Define how many samples to run locally every time:
+###  3.2 Edit chunk_size in `config/config.sh` file to define how many samples to run parallelly.
 - `CHUNK_SIZE_MKFASTQ`  = 1
 - `CHUNK_SIZE_RNACOUNTS` = 1
 - `CHUNK_SIZE_CELLBENDER` = 1
